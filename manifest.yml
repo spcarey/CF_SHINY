@@ -1,5 +1,5 @@
 applications:
- - name: R_TEST_APP
-   command: R --no-save --gui-none < startscript.R
-   instances: 1
-memory: 1G
+- name: R_TEST_APP
+  command: R --no-save --gui-none < startscript.R
+  instances: 1
+  memory: 1G

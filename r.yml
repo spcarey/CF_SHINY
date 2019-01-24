@@ -4,6 +4,8 @@ packages:
     packages:
       - name: shiny
       - name: shinydashboard
+      - name: haven
+      - name: readr
       - name: tidyverse
       - name: lubridate
       - name: DT
