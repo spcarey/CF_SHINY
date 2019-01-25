@@ -1,11 +1,10 @@
 ---
 packages:
-  - cran_mirror: https://cran.r-project.org
-    packages:
-      - name: shiny
-      - name: shinydashboard
-      - name: magrittr
-      - name: dplyr
-      - name: ggplot2
-      - name: lubridate
-      - name: DT
+  - packages:
+     - name: shiny
+     - name: shinydashboard
+     - name: magrittr
+     - name: dplyr
+     - name: ggplot2
+     - name: lubridate
+     - name: DT
