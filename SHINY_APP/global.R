@@ -10,9 +10,9 @@ library(ggplot2)
 
 
 
-gun_violence_total_2017 <- read.csv("~/ShinyApps/shiny_app_test/data/Gun_Violence_2017_total.csv", stringsAsFactors = FALSE)
-State_2016_vote <- read.csv("~/ShinyApps/shiny_app_test/data/2016_Election_Results.csv", stringsAsFactors = FALSE)
-state_population_2017 <- read.csv("~/ShinyApps/shiny_app_test/data/population_2017.csv", stringsAsFactors = FALSE)
+gun_violence_total_2017 <- read.csv("~/ShinyApps/RTEST/SHINY_APP/data/Gun_Violence_2017_total.csv", stringsAsFactors = FALSE)
+State_2016_vote <- read.csv("~/ShinyApps/RTEST/SHINY_APP/data/2016_Election_Results.csv", stringsAsFactors = FALSE)
+state_population_2017 <- read.csv("~/ShinyApps/RTEST/SHINY_APP/data/population_2017.csv", stringsAsFactors = FALSE)
 
 
 
