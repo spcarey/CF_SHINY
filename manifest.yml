@@ -1,6 +1,5 @@
-applications:
-- name: R_TEST_APP
-  buildpack: r-buildpack
-  command: R --no-save --gui-none < startscript.R
-  instances: 1
-  memory: 1G
+ applications:
+ - name: SHINY_APP
+   command: R --no-save --gui-none < startscript.R
+   instances: 1
+   memory: 1G

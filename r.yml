@@ -4,8 +4,8 @@ packages:
     packages:
       - name: shiny
       - name: shinydashboard
-      - name: haven
-      - name: readr
-      - name: tidyverse
+      - name: magrittr
+      - name: dplyr
+      - name: ggplot2
       - name: lubridate
       - name: DT

@@ -1,10 +1,12 @@
-require(shiny)
-require(shinydashboard)
-require(tidyverse)
-require(lubridate)
-require(DT)
+library(shiny)
+library(shinydashboard)
+library(lubridate)
+library(DT)
+library(magrittr)
+library(dplyr)
+library(ggplot2)
 
 
-port <- Sys.getenv('PORT') 
 
-shiny::runApp('SHINY_APP',  host="0.0.0.0", port=as.numeric(Sys.getenv("4443")))
+
+shiny::runApp('SHINY_APP',  host="0.0.0.0", port=as.numeric(Sys.getenv("PORT")))

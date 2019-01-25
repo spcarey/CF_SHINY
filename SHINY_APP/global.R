@@ -1,17 +1,18 @@
 library(shiny)
 library(shinydashboard)
-library(plotly)
-library(tidyverse)
 library(lubridate)
 library(DT)
+library(magrittr)
+library(dplyr)
+library(ggplot2)
 
 
 
 
 
-gun_violence_total_2017 <- read_csv("~/ShinyApps/shiny_app_test/data/Gun_Violence_2017_total.csv")
-State_2016_vote <- read_csv("~/ShinyApps/shiny_app_test/data/2016_Election_Results.csv")
-state_population_2017 <- read_csv("~/ShinyApps/shiny_app_test/data/population_2017.csv")
+gun_violence_total_2017 <- read.csv("~/ShinyApps/shiny_app_test/data/Gun_Violence_2017_total.csv", stringsAsFactors = FALSE)
+State_2016_vote <- read.csv("~/ShinyApps/shiny_app_test/data/2016_Election_Results.csv", stringsAsFactors = FALSE)
+state_population_2017 <- read.csv("~/ShinyApps/shiny_app_test/data/population_2017.csv", stringsAsFactors = FALSE)
 
 
 
@@ -61,6 +62,7 @@ gun_violence_NatAvg_Monthly$MON <- factor(gun_violence_NatAvg_Monthly$MON, level
 
 
 State_2016_vote <- State_2016_vote %>% filter(state != "District of Columbia")
+
 
 
 
