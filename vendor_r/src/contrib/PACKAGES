@@ -486,6 +486,15 @@ License: CC0
 MD5sum: 197716d5fe813a6c55c06fb384880b26
 NeedsCompilation: no
 
+Package: pkgbuild
+Version: 1.0.2
+Depends: R (>= 3.1)
+Imports: callr (>= 2.0.0), cli, crayon, desc, prettyunits, R6, rprojroot, withr (>= 2.1.2)
+Suggests: Rcpp, testthat, covr
+License: GPL-3
+MD5sum: 91eea86231e07399c196ba03154395e1
+NeedsCompilation: no
+
 Package: pkgload
 Version: 1.0.2
 Imports: desc, methods, pkgbuild, rlang, rprojroot, rstudioapi, utils, withr
