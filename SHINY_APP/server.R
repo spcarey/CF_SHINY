@@ -1,5 +1,5 @@
 
-#options(device='cairo')
+options(device='cairo')
 library(shiny)
 library(shinydashboard)
 library(lubridate)
@@ -7,6 +7,7 @@ library(DT)
 library(magrittr)
 library(dplyr)
 library(ggplot2)
+
 
 
 #start Shiny Server func

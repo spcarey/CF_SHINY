@@ -11,7 +11,7 @@ library(ggplot2)
 
 
 
-#options(device='cairo')
+options(device='cairo')
 
 
 #sidebar content 

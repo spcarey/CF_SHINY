@@ -6,7 +6,7 @@ library(magrittr)
 library(dplyr)
 library(ggplot2)
 
-
+options(device='cairo')
 
 
 
@@ -66,4 +66,4 @@ State_2016_vote <- State_2016_vote %>% filter(state != "District of Columbia")
 
 
 
-
+#tools::write_PACKAGES(dir = "vendor_r/src/contrib", fields = NULL, type = c("source"),verbose = FALSE, unpacked = FALSE, subdirs = FALSE,latestOnly = TRUE, addFiles = FALSE, rds_compress = "xz")
