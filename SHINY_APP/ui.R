@@ -1,12 +1,11 @@
 #helper script for data
 source("global.R")
 
-library(shiny)
-library(shinydashboard)
-library(plotly)
-library(tidyverse)
-library(lubridate)
-library(DT)
+require(shiny)
+require(shinydashboard)
+require(tidyverse)
+require(lubridate)
+require(DT)
 
 
 #options(device='cairo')

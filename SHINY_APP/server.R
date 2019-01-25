@@ -1,12 +1,11 @@
 
 #options(device='cairo')
 
-library(shiny)
-library(shinydashboard)
-library(plotly)
-library(tidyverse)
-library(lubridate)
-library(DT)
+require(shiny)
+require(shinydashboard)
+require(tidyverse)
+require(lubridate)
+require(DT)
 
 
 #start Shiny Server func
