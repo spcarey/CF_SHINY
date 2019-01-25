@@ -1,5 +1,5 @@
 #helper script for data
-#shinsource("global.R")
+source("global.R")
 
 library(shiny)
 library(shinydashboard)
