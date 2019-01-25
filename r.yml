@@ -11,3 +11,4 @@ packages:
      - name: Rcpp
      - name: units
      - name: rgeos
+     - name: Cairo
