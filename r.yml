@@ -8,3 +8,6 @@ packages:
      - name: ggplot2
      - name: lubridate
      - name: DT
+     - name: Rcpp
+     - name: units
+     - name: rgeos
