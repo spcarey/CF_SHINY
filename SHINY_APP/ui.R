@@ -41,7 +41,7 @@ body <- dashboardBody(tabItems(
           fluidRow(
             box(
               width = 12, solidHeader = TRUE, status = "primary",
-              h3("The data in this dashboard captures all incedents of American gun violence that took place in 2017.You can explore a summary of all  incidents  by Total or PerCapita statistics. You may also show the politial affiliation of each state from the 2016 Presidential Election."),
+              h3("The data in this dashboard captures all incidents of American gun violence that took place in 2017.You can explore a summary of all  incidents  by Total or PerCapita statistics. You may also show the political affiliation of each state from the 2016 Presidential Election."),
               h3("Three separate datasets were combined to give all of the informaion. All Gun Violence data is a subset of the Kaggle Gun Violence 
                  dataset. Population numbers and voting data were both retrieved from data.gov "),
               h3("Download them all here:",

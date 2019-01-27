@@ -217,12 +217,12 @@ output$downloadData2 <- downloadHandler(
   }
 )
 
-output$downloadData <- downloadHandler(
+output$downloadData3 <- downloadHandler(
   filename = function() {
     paste(Sys.time(), ".csv", sep="")
   },
   content = function(file) {
-    write.csv( gun_violence_2017_fil, file)
+    write.csv(gun_violence_2017_fil, file)
   }
 )
 
