@@ -62,7 +62,7 @@ gun_violence_NatAvg_Monthly$MON <- factor(gun_violence_NatAvg_Monthly$MON, level
 
 
 State_2016_vote <- State_2016_vote %>% filter(state != "District of Columbia")
-#test
+
 
 
 
